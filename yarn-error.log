@@ -1,0 +1,58 @@
+Arguments: 
+  D:\application\nodejs\node.exe D:\application\nodejs\node_global\node_modules\yarn\bin\yarn.js add next
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\application\Git\cmd;D:\application\java\jdk1.8.0_73\bin;D:\application\java\jdk1.8.0_73\jre\bin;D:\application\nodejs\;D:\application\nodejs\node_global;C:\Users\lemons\AppData\Local\Microsoft\WindowsApps;D:\application\Microsoft VS Code\bin;
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.1.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+
+npm manifest: 
+  {
+    "name": "create-next",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "next",
+      "build": "next build",
+      "start": "next start"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/LLLemons/react16.8-next-js-koa2-github.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/LLLemons/react16.8-next-js-koa2-github/issues"
+    },
+    "homepage": "https://github.com/LLLemons/react16.8-next-js-koa2-github#readme",
+    "dependencies": {
+      "@zeit/next-css": "^1.0.1",
+      "antd": "^3.17.0",
+      "babel-plugin-import": "^1.11.0",
+      "ioredis": "^4.9.3",
+      "koa": "^2.7.0",
+      "next": "^8.1.0",
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
